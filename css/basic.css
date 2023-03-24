@@ -1,0 +1,205 @@
+@charset "UTF-8";
+body {    font-family: "Times New Roman", Georgia, Serif;}
+.wrap {
+    position: relative;
+}
+header {    
+    overflow: hidden;
+    height: 55px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    z-index: 100;
+    background-color: #fff;    
+}
+.name {}
+.name h3 {
+    letter-spacing: 4px;
+    display:inline-block;
+    padding: 10px 30px;
+    float: left;
+    margin: 5px;    
+}
+.name h3 > a {
+    color:#000; 
+}
+.name h3:hover {
+    background-color:#CCCCCC;
+}
+.menu {
+    position: absolute;
+    right:50px;
+    display:flex;
+    float: right;
+    top: 15px;
+}
+.menu p > a {    
+    padding: 15px;
+    color:#76777B;    
+    width: 60px;
+    height: 40px;
+}
+.menu p > a:hover {
+    background-color:#CCCCCC;
+}
+
+.main {
+    text-align: center; 
+    position: relative;
+    margin: 0 auto;
+    width: 1600px;
+}
+.main_text {
+    padding: 12px 24px;    
+    width: 350px;
+    height: 100px;
+    position: absolute;      
+    left: 0;
+    bottom: 0;    
+}
+.main_text h1 {      
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    font-size: 50px;
+    color:#7C7E83;
+}
+
+article {    
+    margin:100px auto;
+    width: 1100px;
+    height: 624px;        
+}
+article  .art1 {
+    width: 1100px;
+    height: 780px; 
+    box-sizing: border-box;
+}
+.contain1 {
+    display: flex;
+}
+
+.contain1 img{
+    width: 528px;
+    height: 624px;
+    box-sizing: border-box;
+}
+article  .art-text1 {
+    padding:20px;
+    box-sizing: border-box;    
+}
+.contain article .contain1 .art-text1  h1 {
+    font-size: 40px;
+    font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, sans-serif;
+    letter-spacing: 4px;
+    padding: 20px;
+    text-align: center;
+}
+.contain article .contain1 .art-text1 h5 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding:0 0  20px 0;
+    font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, sans-serif;
+}
+.contain article .contain1 .art-text1 p {
+    letter-spacing: 2px;
+    font-size:18px;    
+}
+.contain article .contain1 .art-text1 p:last-child {
+    color: #757575;
+    font-size:18px;
+    margin-top: 40px;    
+}
+.art2 {
+    width: 1100px;
+    height: 780px; 
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    border-bottom: #757575;
+}
+
+.contain2 {
+    display: flex;
+    position: relative;    
+}
+.contain article .contain2 .art-text2  h1 {
+    font-size: 40px;
+    font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, sans-serif;
+    letter-spacing: 4px;
+    padding: 20px;
+    text-align: center;
+}
+.contain article .contain2 .art-text2  h4 {
+    padding:30px 0 20px 15px;
+    font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.contain article .contain2 .art-text2 p {
+    color: #757575;
+    padding:0 0 20px 15px;
+}
+.contain2 .art-img2  {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+hr {
+    border: 0;
+    border-bottom: 1px solid #e0dfdf;
+    margin: 20px 0;
+}
+.contact {
+    font-family: "맑은 고딕", "Malgun Gothic", "돋움", dotum, sans-serif;
+    width: 1100px;
+    height: 700px;    
+    margin:0 auto;
+    margin-top:70px;
+}
+.contact h1 {
+    font-size: 36px;
+    margin:30px 0 50px 20px;
+}
+.contact p {
+    margin:30px 0 30px 20px;
+    font-size: 14px;
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height:1.4;
+}
+.contact p:nth-child(4) {
+    color: #607d8b
+}
+
+.contact form >P >input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+}
+.contact form >P >button {
+    padding:10px;
+    color: #000;
+    background-color: #f1f1f1;
+    border:none;
+}
+
+footer {
+    width:100%;
+    background:#F1F1F1;
+    height:117px;
+    text-align: center;
+    position: relative;    
+}
+footer p {
+    position:absolute;
+    top:55px;
+    left:50%;
+    transform: translateX(-50%);
+}
+footer p>a {
+    color:#000;
+    text-decoration:underline;
+}
